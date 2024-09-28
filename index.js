@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 const urlController = require("./routes/url/urlController");
-app.use("/url", urlController);
+app.use("/editorJS", urlController);
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`)
